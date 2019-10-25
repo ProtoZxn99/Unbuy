@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2018, 12:06:58 PM
+    Author     : Patrick
+*/
+/*#main-content{
+    overflow: hidden;
+    max-width: 100%;*/
+/*}*/
+
+#container{
+    height:auto !important; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+
+    min-height:95vh; /* real browsers */
+}
+
+.site-footer {
+    position: relative;
+    width:100%;
+    bottom:0;
+    height: 5vh;
+}
+
+.itemmenu{
+    max-height: 500px !important;
+}
